@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Form Validasi</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" pattern="[a-z]" placeholder="contohnama123" id="username" />
+            </div>
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="contoh@gmail.com" id="email" />
+            </div>
+            <div class="form-control">
+                <label for="username">Nomor HP</label>
+                <input type="number"  placeholder="0824xxxxxxx" id="nohp"/>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+<script src="fungsi.js"></script>
+</body>
+</html>

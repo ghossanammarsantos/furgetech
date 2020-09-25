@@ -1,0 +1,21 @@
+<html> 
+<head> 
+<title>Deret Fibonacci</title> 
+</head> 
+<body> 
+<div id="hasil"></div> 
+<script> 
+var msg="0,1"; 
+function nextAngka(a,b) 
+{ 
+ if(b<80){ 
+  a=(a+b); 
+  msg+=", "+a; 
+  nextAngka(b,a); 
+ } 
+} 
+nextAngka(0,1); 
+document.getElementById("hasil").innerHTML=msg; 
+</script> 
+</body> 
+</html> 
